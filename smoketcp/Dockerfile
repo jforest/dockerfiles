@@ -1,5 +1,5 @@
 # SmokeTCP box
-FROM 281173056104.dkr.ecr.us-east-1.amazonaws.com/personal:base
+FROM 281173056104.dkr.ecr.us-east-1.amazonaws.com/jforest:base
 MAINTAINER Joshua C. Forest "joshua@joshuacforest.com"
 RUN apt-get install -qq git golang -y
 WORKDIR /usr/local
